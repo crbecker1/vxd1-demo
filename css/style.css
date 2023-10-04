@@ -61,12 +61,19 @@ body {
   border-top: 0;
   border-right: 0;
 }
+
+
+ /* navigation */
+
+
 @media screen and (max-width: 400px) {
   .navigation-item {
     flex-basis: 100%;
   }
 }
 
+
+ /* navigation */
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
