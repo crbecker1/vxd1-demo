@@ -1,3 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #e6e6e6;
+}
+ /* navigation */
+
+.nav {
+  width: 100%;
+  border-bottom: 5px solid #ccc;
+  background: #fff;
+  height: 50px;
+}
+.navigation-inner {
+  display: flex;
+  max-width: 900px;
+  background: green;
+  height: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: 'Croissant One', cursive;
+}
+.navigation-link {
+  display: flex;
+  padding: 0 20px;
+  font-size: 1.2em;
+  line-height: 50px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+}
+.navigation-link:hover {
+  background: #B7FE9B;
+  color: green;
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
+}
+.navigation-logo {
+  flex-shrink: 0;
+  align-self: flex-start;
+  border-left: 5px solid #ccc;
+  border-right: 5px solid #ccc;
+}
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-right: 0;
+}
+@media screen and (max-width: 400px) {
+  .navigation-item {
+    flex-basis: 100%;
+  }
+}
+
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
 }
